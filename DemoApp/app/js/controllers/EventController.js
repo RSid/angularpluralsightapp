@@ -2,6 +2,7 @@
 
 eventsApp.controller('EventController',
     function EventController($scope) {
+        $scope.sortorder = 'name';
         $scope.mystyle = {color: 'red'};
 
         $scope.event = {
