@@ -19,7 +19,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Directives Masterclass',
                     creatorName: 'Joe Schmoe',
-                    duration: '11 hours',
+                    duration: 1,
                     level: 'Advanced',
                     abstract: "I will talk so much about directives, you don't know.",
                     upVoteCount: 0
@@ -27,7 +27,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Do The TimeWarp Again',
                     creatorName: 'Dr. Frankenfurter',
-                    duration: '1 hours',
+                    duration: 2,
                     level: 'Advanced',
                     abstract: "LET'S DO THE TIME WARP AGAIN.",
                     upVoteCount: 0
@@ -35,7 +35,7 @@ eventsApp.controller('EventController',
                 {
                     name: 'Bees!',
                     creatorName: 'Sherlock Holmes',
-                    duration: '2 hours',
+                    duration: 2,
                     level: 'Intermediate',
                     abstract: "BzzzzZZZzzzzzdeduction.",
                     upVoteCount: 0
