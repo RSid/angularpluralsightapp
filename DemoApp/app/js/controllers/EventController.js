@@ -2,7 +2,7 @@
 
 eventsApp.controller('EventController',
     function EventController($scope) {
-        $scope.boolValue = true;
+        $scope.mystyle = {color: 'red'};
 
         $scope.event = {
             name: 'Angular Bootcamp',
